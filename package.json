@@ -1,0 +1,22 @@
+{
+  "name": "event-dispatcher-workflows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "push": "node index.js ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/006imran/event-dispatcher-workflows.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/006imran/event-dispatcher-workflows/issues"
+  },
+  "homepage": "https://github.com/006imran/event-dispatcher-workflows#readme",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}
