@@ -1,0 +1,18 @@
+name: Push
+env:
+  REPO_OWNER: meroware
+  REPO_NAME: example-event-dispatcher-workflows
+  GITHUB_TOKEN: ${{ secrets.TOKEN }}
+on:
+  repository_dispatch:
+    types: [run-Push]
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install packages
+        run: npm ci
+      - name: Run Push
+        run: npm run Push
+        
