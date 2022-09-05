@@ -1,4 +1,4 @@
-name: Push
+name: on-Push
 env:
   REPO_OWNER: 006imran
   REPO_NAME: event-dispatcher-workflows
